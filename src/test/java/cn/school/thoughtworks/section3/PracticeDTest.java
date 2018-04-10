@@ -40,10 +40,10 @@ public class PracticeDTest {
         Map<String, Integer> result = practiceD.createUpdatedCollection(collection1, collection2);
         Map<String, Integer> expectedResult = new HashMap<String, Integer>() {{
             put("a", 2);
-            put("e", 5);
+            put("e", 6);
             put("h", 11);
             put("t", 20);
-            put("f", 6);
+            put("f", 8);
             put("c", 8);
             put("g", 7);
             put("b", 6);
